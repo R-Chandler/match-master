@@ -103,12 +103,12 @@ body {
     height: 50px;
 }
 
-.hidden-menu {
+#hidden-menu {
     width: 80%;
     height: 400px;
     background-color: transparent;
     position: absolute;
-    bottom: 0;
+    bottom: -400px;
     display: flex;
     justify-content: center;
 }
