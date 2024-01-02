@@ -11,6 +11,7 @@ body {
 .title {
     height: 150px;
     margin: 25px;
+    width: 50vw;
 }
 
 .title h1 {
@@ -27,9 +28,8 @@ body {
 /** Game Area**/
 
 .game-area {
-    width: 500px;
-    height: 500px;
-    padding: 10px;
+    width: 30vw;
+    aspect-ratio : 1 / 1;
     background-color: antiquewhite;
     border-radius: 10px;
     margin-top: 50px;
@@ -84,10 +84,11 @@ body {
 
 .options-button {
     height: 50px;
-    width: 100px;
+    width: 20vw;
     position: absolute;
     background-color: antiquewhite;
     border-radius: 10px 10px 0 0;
+    margin: auto;
 }
 
 .open-button {
@@ -108,7 +109,7 @@ body {
     height: 400px;
     background-color: transparent;
     position: absolute;
-    bottom: -400px;
+    bottom: -450px;
     display: flex;
     justify-content: center;
 }
