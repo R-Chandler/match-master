@@ -28,12 +28,15 @@ body {
 /** Game Area**/
 
 .game-area {
-    width: 30vw;
+    width: 40vw;
     aspect-ratio : 1 / 1;
     background-color: antiquewhite;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 7.5rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .tile-block {
@@ -79,7 +82,9 @@ body {
 
 .options-menu {
     height: 50px;
-    width: 100px;
+    width: 20vw;
+    position: absolute;
+    bottom: 0;
 }
 
 .options-button {
@@ -87,8 +92,7 @@ body {
     width: 20vw;
     position: absolute;
     background-color: antiquewhite;
-    border-radius: 10px 10px 0 0;
-    margin: auto;
+    border-radius: 10px 10px 0 0; 
 }
 
 .open-button {
